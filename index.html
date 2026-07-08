@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Topology | Enterprise Data & AI Advisory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            900: '#0B132B', /* Deep Navy */
+                            800: '#1C2541', /* Slate Blue */
+                            600: '#3A506B', /* Muted Blue */
+                            400: '#5BC0BE', /* Soft Teal Accent */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-brand-900 font-sans antialiased selection:bg-brand-400 selection:text-brand-900">
+
+    <header class="bg-brand-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tight">
+                SEMANTIC <span class="text-brand-400">TOPOLOGY</span>
+            </div>
+            <a href="#contact" class="bg-brand-400 text-brand-900 px-4 py-2 rounded font-medium hover:bg-white transition duration-300 text-sm">
+                Request Briefing
+            </a>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-b from-brand-900 to-brand-800 text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="text-brand-400 uppercase tracking-widest text-xs font-bold bg-brand-800 px-3 py-1.5 rounded-full border border-brand-600">Enterprise AI Architecture</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mt-6 mb-6 leading-tight">
+                Moving GenAI from Messy Prototype to <br class="hidden md:inline"><span class="text-brand-400">Deterministic Corporate Truth</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+                We design the semantic layers, enterprise knowledge graphs, and scalable infrastructure required to eliminate AI hallucinations and align models with complex business logic.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#framework" class="bg-white text-brand-900 px-6 py-3 rounded font-medium hover:bg-brand-400 hover:text-brand-900 transition duration-300">
+                    Our Strategic Framework
+                </a>
+                <a href="#contact" class="border border-slate-400 text-white px-6 py-3 rounded font-medium hover:bg-white/10 transition duration-300">
+                    Schedule an Advisory Call
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight">The Chasm Between Capability and Execution</h2>
+            <div class="w-16 h-1 bg-brand-400 mx-auto mt-4"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 text-base">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+                <h3 class="text-lg font-bold text-red-600 mb-3">The Production Bottleneck</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Most enterprise GenAI initiatives fail in production because Large Language Models are probabilistic. Without robust grounding, they hallucinate, lack corporate context, and fail to scale past basic science projects.
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+                <h3 class="text-lg font-bold text-brand-400 mb-3">The Architectural Answer</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    We bridge this gap. By architecting unified semantic layers and structured Knowledge Graphs (GraphRAG), we provide models with a governed, deterministic source of truth that respects enterprise logic and access controls.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="framework" class="bg-slate-100 py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Target-State Architectural Services</h2>
+                <p class="text-slate-600 mt-2">We deliver the high-level blueprints. Your team executes the build.</p>
+                <div class="w-16 h-1 bg-brand-400 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-400 font-bold text-xl mb-4">01 /</div>
+                        <h3 class="text-lg font-bold mb-3">Enterprise Knowledge Graph Strategy</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Mapping out the corporate ontology and data relationships to turn fragmented databases into an interconnected, machine-readable asset layer.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-400 font-bold text-xl mb-4">02 /</div>
+                        <h3 class="text-lg font-bold mb-3">GraphRAG & GenAI Blueprinting</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Designing the middleware architectures that allow LLMs to safely, contextually, and reliably query enterprise systems with zero data leaks.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-400 font-bold text-xl mb-4">03 /</div>
+                        <h3 class="text-lg font-bold mb-3">Data/LLMOps & AI Governance</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Establishing the guardrails for deployment, including node-level security compliance, model abstraction, and compute/token cost tracking frameworks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-6">High-Level Direction. No Execution Bloat.</h2>
+        <p class="text-slate-600 leading-relaxed max-w-2xl mx-auto mb-8">
+            We are independent advisors, not software factories looking to rack up billable engineering hours. We focus exclusively on upstream architecture, delivering the definitive technical blueprint your internal development teams need to build effectively.
+        </p>
+        <blockquote class="border-l-4 border-brand-400 bg-white p-6 rounded-r-lg text-left italic text-brand-800 shadow-sm">
+            "We build the roadmap and design the engine structure, protecting you from expensive tactical re-work down the line."
+        </blockquote>
+    </section>
+
+    <section id="contact" class="bg-brand-900 text-white py-20 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Request an Architectural Briefing</h2>
+            <p class="text-slate-300 mb-8">
+                Ready to stabilize your AI roadmap? Let's discuss an initial readiness audit for your current infrastructure.
+            </p>
+            
+            <div class="bg-brand-800 p-8 rounded-xl border border-brand-600 max-w-md mx-auto text-center">
+                <p class="text-sm text-slate-300 mb-4">To preserve direct partner-level communication, schedule directly via email:</p>
+                <a href="mailto:briefings@semantictopology.com" class="block w-full bg-brand-400 text-brand-900 font-bold py-3 rounded hover:bg-white transition duration-300">
+                    briefings@semantictopology.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-900 text-slate-500 py-8 border-t border-brand-800 text-center text-xs">
+        <p>&copy; 2026 Semantic Topology LLC. All rights reserved. Strategic Architecture & Advisory.</p>
+    </footer>
+
+</body>
+</html>
